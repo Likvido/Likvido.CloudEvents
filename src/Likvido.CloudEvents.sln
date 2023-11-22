@@ -6,6 +6,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionF
 	ProjectSection(SolutionItems) = preProject
 		version.props = version.props
 		..\.github\dependabot.yml = ..\.github\dependabot.yml
+		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{D5111444-57FD-407F-93F8-1E7E7B9CAB67}"

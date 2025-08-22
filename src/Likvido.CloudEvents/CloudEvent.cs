@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Likvido.CloudEvents
 {
@@ -16,6 +17,7 @@ namespace Likvido.CloudEvents
 
         // Custom optional attribute extensions
         public LikvidoPriority? LikvidoPriority { get; set; }
+        public List<KeyValuePair<string, string>> LikvidoUserClaims { get; set; }
     }
 
     public class CloudEvent<TMessage> : CloudEvent

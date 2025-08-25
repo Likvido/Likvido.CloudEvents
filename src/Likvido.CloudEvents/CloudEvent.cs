@@ -15,9 +15,9 @@ namespace Likvido.CloudEvents
         public DateTime? Time { get; set; }
         public string SpecVersion { get; set; } = "1.0";
 
-        // Custom optional attribute extensions
+        // Custom optional attribute extensions (only primitives and string are allowed)
         public LikvidoPriority? LikvidoPriority { get; set; }
-        public List<KeyValuePair<string, string>> LikvidoUserClaims { get; set; }
+        public string LikvidoUserClaimsString { get; set; }
     }
 
     public class CloudEvent<TMessage> : CloudEvent
